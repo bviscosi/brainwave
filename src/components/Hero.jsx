@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of AI Chatting with
+            Explore the Possibilities of AI Chatting with {""}
             <span className="inline-block relative">
               Brainwave
               <img
@@ -63,10 +63,12 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img src={heroBackground} className="w-full" width={1440} height={1800} alt="hero" />
           </div>
+          <BackgroundCircles />
         </div>
       </div>
     </Section>
