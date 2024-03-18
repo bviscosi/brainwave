@@ -28,7 +28,7 @@ const Roadmap = () => {
                       <Tagline>{item.date}</Tagline>
                       <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                         <img
-                          src={item.status === "Done" ? check2 : loading1}
+                          src={item.status === "done" ? check2 : loading1}
                           className="mr-2.5"
                           width={16}
                           height={16}
