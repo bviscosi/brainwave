@@ -63,11 +63,11 @@ import benefitCard3 from "/assets/benefits/card-3.svg";
 import benefitCard4 from "/assets/benefits/card-4.svg";
 import benefitCard5 from "/assets/benefits/card-5.svg";
 import benefitCard6 from "/assets/benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitIcon1 from "/assets/benefits/icon-1.svg";
+import benefitIcon2 from "/assets/benefits/icon-2.svg";
+import benefitIcon3 from "/assets/benefits/icon-3.svg";
+import benefitIcon4 from "/assets/benefits/icon-4.svg";
+import benefitImage2 from "/assets/benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
